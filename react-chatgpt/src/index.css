@@ -1,0 +1,83 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Cambia el color de fondo a tu gusto */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra al título */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff; /* Fondo del formulario */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold; /* Texto en negrita */
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #4CAF50 0%, #45a049 100%); /* Botón degradado */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #45a049 0%, #4CAF50 100%); /* Cambio de color al presionar */
+}
+
+.response {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Agrega sombra al subtítulo */
+  font-weight: bold; /* Texto en negrita */
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  border: 1px solid #ccc; /* Bordes alrededor del texto */
+  padding: 10px;
+  border-radius: 5px;
+}
