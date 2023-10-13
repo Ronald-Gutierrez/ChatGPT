@@ -1,0 +1,8 @@
+# Excluir archivos .env
+.env
+
+# Excluir archivos de registro
+*.log
+
+# Excluir un directorio llamado "node_modules"
+# node_modules/
