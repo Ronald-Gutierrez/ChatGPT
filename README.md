@@ -4,6 +4,7 @@
 # Chat GPT 3.5 Web App
 
 Este proyecto es una aplicación web de chat que utiliza la API de GPT-3.5 para proporcionar respuestas basadas en texto a las consultas de los usuarios. La aplicación se desarrolla utilizando React con Vite y se integra con OpenAI's GPT-3 API.
+Puedes utilizarlo con fines educativos, o mejoras de un proyecto para integrar ChatGPT como asistente virtual o chatbot con respuestas reales aleatorias.
 
 <p align="center">
   <img src="https://github.com/Ronald-Gutierrez/ChatGPT/blob/main/react-chatgpt/src/assets/Screenshot_1.png" alt="Logo_BusGo">
