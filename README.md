@@ -33,8 +33,8 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
 
    ```bash
    npm install
+   npm install axios
    ```
-
 4. Crea un archivo `.env` en el directorio raíz del proyecto y agrega tu API key de GPT-3.5. Puedes obtener una clave API de OpenAI registrándote en [OpenAI](https://beta.openai.com/signup/). El contenido del archivo `.env` debe verse así:
 
    ```plaintext
@@ -44,8 +44,11 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
    Reemplaza `TU_API_KEY` con tu clave API.
 
 ## Ejecución
-
-Una vez que hayas configurado el proyecto, puedes iniciar la aplicación web con el siguiente comando:
+Para ejecutar el codigo, primero debemos de ejecutar el serviodor del listener de ChatGPT, mediante el siguiente comando en una terminal:
+```bash
+node .\index.js     
+```
+Acontinuacion en otro terminal ya configurado el proyecto, puedes iniciar la aplicación web con el siguiente comando:
 
 ```bash
 npm run dev
@@ -55,11 +58,10 @@ Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegado
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+Este proyecto se distribuye bajo la licencia OpenAI. Consulta el archivo [LICENSE](https://openai.com/) para obtener más detalles.
 
 ## Agradecimientos
-
+Para este proyecto se modifico la sintaxis, ya que ChatGPT se encontraba anteriormente en su version v3, por lo que ahora esta en la version v4, mas informacion de la sintaxis en: [Documentacion](https://github.com/openai/openai-node/discussions/217)
 - [React](https://reactjs.org/) - Biblioteca de JavaScript para la interfaz de usuario.
 - [Vite](https://vitejs.dev/) - Build tool para aplicaciones web.
 - [OpenAI](https://beta.openai.com/signup/) - Proveedores de la API de GPT-3.5.
-```
